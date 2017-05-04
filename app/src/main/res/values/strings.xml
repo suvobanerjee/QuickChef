@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">QuickChef</string>
+    <string name="backdrop_title">Quick Chef</string>
+    <string name="backdrop_subtitle">The place to learn cooking Quick</string>
+    <string name="title_activity_menu_list">MenuListActivity</string>
+    <string name="title_activity_menu_list_up">Menu</string>
+    <string name="title_activity_recipe_details">RecipeDetails</string>
+
+</resources>
