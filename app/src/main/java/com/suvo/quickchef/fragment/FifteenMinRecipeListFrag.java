@@ -42,12 +42,15 @@ public class FifteenMinRecipeListFrag extends Fragment{
         List<Recipe> recipeList = new ArrayList<Recipe>();
 
         Recipe recipe = new Recipe(thumbNailImgId,"Omellete","The easy and healthy snack");
+        recipe.save();
         recipeList.add(recipe);
 
         recipe = new Recipe(thumbNailImgId,"Omellete2","The easy and healthy snack");
+        recipe.save();
         recipeList.add(recipe);
 
         recipe = new Recipe(thumbNailImgId,"Omellete3","The easy and healthy snack");
+        //recipe.save();
         recipeList.add(recipe);
 
         recipe = new Recipe(thumbNailImgId,"Omellete4","The easy and healthy snack");

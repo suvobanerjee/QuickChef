@@ -1,18 +1,25 @@
 package com.suvo.quickchef.model;
 
+
+import com.orm.SugarRecord;
+
 /**
  * Created by suvo on 3/6/2017.
  */
 
-public class Recipe {
+public class Recipe extends SugarRecord {
 
-    int thumbnail,vegNonVeg;
-    String title,subtitle;
+    int thumbnail;
+    int vegNonVeg;
+    String title;
+    String subtitle;
 
+    public Recipe(){
+    }
 
     public Recipe(int thumbnail, String title, String subtitle) {
         this.thumbnail = thumbnail;
-        //this.vegNonVeg = vegNonVeg;
+        this.vegNonVeg = 1;
         this.title = title;
         this.subtitle = subtitle;
     }
